@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import Todo from "../components/Todo";
 import { toggleTodo } from "../actions/todo.actions";
 import { AVAILABLE_FILTERS } from "../actions/todo.actions";
-import filter from "../reducers/filter.reducer";
 
 const TodoList = ({ todos, toggleTodo }) => {
     return (
