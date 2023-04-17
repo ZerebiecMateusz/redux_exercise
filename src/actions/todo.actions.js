@@ -6,3 +6,8 @@ export const addTodo = text => ({
     complete: false,
     text
 })
+
+export const toggleTodo = id => ({
+    type: "TOGGLE_TODO",
+    id
+})
